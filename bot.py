@@ -3,7 +3,7 @@ import telebot
     
 # Замени 'TOKEN' на токен твоего бота
 # Этот токен ты получаешь от BotFather, чтобы бот мог работать
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("1111")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
